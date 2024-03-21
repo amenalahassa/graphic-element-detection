@@ -43,3 +43,5 @@ To use this project, you need to have the necessary Python libraries installed. 
 This project is a work in progress. Future updates may include improvements to the model and additional features.
 
 The dataset used for training the model is not included in this repository. You can use have a look at the dataset [here](https://drive.google.com/drive/folders/15xmW4FKnEUTmYFol3AWG3PcIwBnWyNcV?usp=sharing). 
+
+Big thanks to *LEMELIN William* for providing the dataset.
