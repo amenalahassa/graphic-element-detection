@@ -10,7 +10,7 @@ The project uses a combination of image processing and machine learning techniqu
 
 ## Code Overview
 
-The code is written in Python and uses several libraries including `cv2`, `matplotlib`, `pytesseract`, `pandas`, `numpy`, `PIL`, and `ultralytics`.
+The code is written in Python and uses several libraries including `cv2`, `matplotlib`, `pytesseract`, `pandas`, `numpy`, `PIL`, `ultralytics` and `transformers`.
 
 The main components of the code are:
 
@@ -32,11 +32,12 @@ The main components of the code are:
 
 ## Current State
 
-The Yolo model achieves a mean average precision (mAP) of 0.6485 on the test set. 
+The Yolo model achieves a mean average precision (mAP) of 0.6485 on the test set. I also integrate DETR model and train it on the dataset.
 
 ## Usage
 
 To use this project, you need to have the necessary Python libraries installed. You can then run the code in the `vn.ipynb` notebook. The notebook includes sections for training the model and making predictions.
+The files `yolo_vs_detr.ipynb` are used to fine-tune the model and compare the performances of YOLO and DETR models.
 
 ## Note
 
